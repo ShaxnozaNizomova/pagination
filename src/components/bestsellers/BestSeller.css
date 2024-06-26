@@ -1,0 +1,33 @@
+.bestseller{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.bestseller__items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #F6F6F6;
+    background-color: #F6F6F6;
+   
+    border-radius: 22px;
+}
+.best__title{
+    color: #1E1D1D;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: Poppins;
+}
+.best__text{
+    color: #8B8E99;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Poppins;
+    padding: 15px 0;
+}

@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    background-color: #0B0B0B;
+}
+.navbar__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.navbar__menu{
+    display: flex;
+    gap: 20px;
+}
+.menu__link{
+    color: #bec0c9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins;
+}
