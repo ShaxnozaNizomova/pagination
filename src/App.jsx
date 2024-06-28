@@ -1,20 +1,21 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import BestSellers from "./components/bestsellers/BestSellers";
-import Products from "./components/products/Products";
-import Review from "./components/review/Review";
-import Footer from "./components/footer/Footer";
-
+import Admin from "./pages/admin/Admin";
+import Login from "./pages/login/Login";
+import Auth from "./pages/auth/Auth";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <BestSellers />
-      <Products />
-      <Review />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Auth />}>
+          <Route path="/admin" element={<Admin />} />
+        </Route>
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 };

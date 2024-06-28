@@ -1,0 +1,27 @@
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.login form{
+    max-width: 330px;
+    padding: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+.login h2{
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(80, 78, 78);
+} 
+.login input,
+.login button
+{
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
